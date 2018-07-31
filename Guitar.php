@@ -19,7 +19,3 @@ class Guitar {
       $this->sixString = $newSixString;
    }
 }
-
-
-
-

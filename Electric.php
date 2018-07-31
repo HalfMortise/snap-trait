@@ -11,7 +11,7 @@ class Electric extends Guitar {
 
    protected $type;
 
-   public function __construct(string $sixString, string $newType) {
+   public function __construct(string $newSixString, string $newType) {
       parent::__construct($newSixString);
       $this->setType($newType);
    }
