@@ -39,9 +39,9 @@ trait TuningFork {
 
    public function run(): void {
       if($this->stringedInstrument === true) {
-         echo "TEXT" . PHP_EOL;
+         echo "Message" . PHP_EOL;
       } else {
-         echo "TEXT" . PHP_EOL;
+         echo "Other Message" . PHP_EOL;
       }
    }
 }
